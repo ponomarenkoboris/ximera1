@@ -1,0 +1,291 @@
+.himera{
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100000;
+    background: #ffffff;
+}
+.animation-logo {
+    width: 100%;
+    margin: auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logohim{
+    position: relative;
+    -webkit-animation: himera-logo 3s ease-in-out 1;
+    -o-animation: himera-logo 3s ease-in-out 1;
+    animation: himera-logo 3s ease-in-out 1;
+
+}
+.animation-lines{
+    width: 0px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.line1{
+    position: relative;
+    max-width: 0px;
+    height: 2.5px;
+    padding: 0px;
+    background-color: #000000;
+    -webkit-animation: line-drow2 1s ease-in-out 2s 1 forwards;
+    -o-animation: line-drow2 1s ease-in-out 2s 1 forwards;
+    animation: line-drow1 1s ease-in-out 2s 1 forwards;
+}
+.line2 {
+    position: relative;
+    max-width: 0px;
+    height: 2.5px;
+    padding: 0;
+    background-color: #000000;
+    -o-animation: line-drow2 1s ease-in-out 2s 1 forwards;
+    -webkit-animation: line-drow2 1s ease-in-out 2s 1 forwards;
+    animation: line-drow2 1s ease-in-out 2s 1 forwards;
+}
+@-webkit-keyframes himera-logo {
+    0% {
+        top: -450px;
+    }
+
+    50% {
+        top: 260px;
+    }
+
+    75% {
+        top: 160px;
+    }
+
+    85% {
+        top: 160px;
+    }
+
+    100% {
+        top: -450px;
+    }
+}
+
+@-wbkit-keyframes line-drow1 {
+    0% {
+        top: 0px;
+        max-width: 0px;
+        height: 2.5px;
+    }
+
+    50% {
+        top: 0px;
+        max-width: 1950px;
+        height: 2.5px;
+    }
+
+    100% {
+        max-width: 1950px;
+        height: 2.5px;
+        top: -450px;
+    }
+}
+
+@-wbkit-keyframes line-drow2 {
+    0% {
+        top: 0px;
+        max-width: 0px;
+        height: 5px;
+    }
+
+    50% {
+        top: 0px;
+        max-width: 1950px;
+        height: 2.5px;
+    }
+
+    100% {
+        top: 450px;
+        max-width: 1950px;
+        height: 2.5px;
+    }
+}
+@-o-keyframes himera-logo {
+    0% {
+        top: -450px;
+    }
+
+    50% {
+        top: 260px;
+    }
+
+    75% {
+        top: 160px;
+    }
+
+    85% {
+        top: 160px;
+    }
+
+    100% {
+        top: -450px;
+    }
+}
+
+@-o-keyframes line-drow1 {
+    0% {
+        top: 0px;
+        max-width: 0px;
+        height: 2.5px;
+    }
+
+    50% {
+        top: 0px;
+        max-width: 1950px;
+        height: 2.5px;
+    }
+
+    100% {
+        max-width: 1950px;
+        height: 2.5px;
+        top: -450px;
+    }
+}
+
+@-o-keyframes line-drow2 {
+    0% {
+        top: 0px;
+        max-width: 0px;
+        height: 5px;
+    }
+
+    50% {
+        top: 0px;
+        max-width: 1950px;
+        height: 2.5px;
+    }
+
+    100% {
+        top: 450px;
+        max-width: 1950px;
+        height: 2.5px;
+    }
+}
+@keyframes himera-logo {
+    0%{
+        top: -450px;
+    }
+    50%{
+        top: 260px;
+    }
+    75%{
+        top: 160px;
+    }
+    85%{
+        top: 160px;
+    }
+    100%{
+        top: -450px;
+    }
+}
+@keyframes line-drow1{
+    0%{
+        top: 160px;
+        max-width: 0px;
+        height: 2.5px;
+    }
+    50%{
+        top: 160px;
+        max-width: 1950px;
+        height: 2.5px;
+    }
+    100% {
+        max-width: 1950px;
+        height: 2.5px;
+        top: -450px;
+    }
+}
+@keyframes line-drow2 {
+    0% {
+        top: 160px;
+        max-width: 0px;
+        height: 5px;
+    }
+    50%{
+        top: 160px;
+        max-width: 1950px;
+        height: 2.5px;
+    }
+    100% {
+        top: 450px;
+        max-width: 1950px;
+        height: 2.5px;
+    }
+}
+@media screen and (max-width: 400px){
+    @keyframes himera-logo {
+        0% {
+            top: -450px;
+        }
+
+        50% {
+            top: 160px;
+        }
+
+        75% {
+            top: 100px;
+        }
+
+        85% {
+            top: 100px;
+        }
+
+        100% {
+            top: -450px;
+        }
+    }
+    @-webkit-keyframes himera-logo {
+        0% {
+            top: -450px;
+        }
+
+        50% {
+            top: 160px;
+        }
+
+        75% {
+            top: 100px;
+        }
+
+        85% {
+            top: 100px;
+        }
+
+        100% {
+            top: -450px;
+        }
+    }
+    @-o-keyframes himera-logo {
+        0% {
+            top: -450px;
+        }
+
+        50% {
+            top: 260px;
+        }
+
+        75% {
+            top: 160px;
+        }
+
+        85% {
+            top: 160px;
+        }
+
+        100% {
+            top: -450px;
+        }
+    }
+}
