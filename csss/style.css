@@ -23,6 +23,9 @@
     animation: himera-logo 3s ease-in-out 1;
 
 }
+.logohimmin{
+    display: none;
+}
 .animation-lines{
     width: 0px;
     margin: auto;
@@ -177,6 +180,9 @@
     0%{
         top: -450px;
     }
+    25%{
+        top: 260px;
+    }
     50%{
         top: 260px;
     }
@@ -224,7 +230,87 @@
         height: 2.5px;
     }
 }
-@media screen and (max-width: 400px){
+/*Ширина экрана 768 пикселей*/
+@media screen and (max-width: 768px){
+    .logohim {
+        display: none;
+    }
+
+    .logohimmin {
+        display: block;
+        position: relative;
+        -webkit-animation: himera-logo 3s ease-in-out 1;
+        -o-animation: himera-logo 3s ease-in-out 1;
+        animation: himera-logo 3s ease-in-out 1;
+    }
+    @keyframes himera-logo {
+        0% {
+            top: -450px;
+        }
+
+        50% {
+            top: 160px;
+        }
+
+        75% {
+            top: 100px;
+        }
+
+        85% {
+            top: 100px;
+        }
+
+        100% {
+            top: -450px;
+        }
+    }
+
+    @-webkit-keyframes himera-logo {
+        0% {
+            top: -450px;
+        }
+
+        50% {
+            top: 160px;
+        }
+
+        75% {
+            top: 100px;
+        }
+
+        85% {
+            top: 100px;
+        }
+
+        100% {
+            top: -450px;
+        }
+    }
+
+    @-o-keyframes himera-logo {
+        0% {
+            top: -450px;
+        }
+
+        50% {
+            top: 160px;
+        }
+
+        75% {
+            top: 100px;
+        }
+
+        85% {
+            top: 100px;
+        }
+
+        100% {
+            top: -450px;
+        }
+    }
+}
+/*Ширина экрана 480 пикселей*/
+@media screen and (max-width: 480px){
     @keyframes himera-logo {
         0% {
             top: -450px;
@@ -273,15 +359,83 @@
         }
 
         50% {
-            top: 260px;
+            top: 160px;
         }
 
         75% {
-            top: 160px;
+            top: 100px;
         }
 
         85% {
+            top: 100px;
+        }
+
+        100% {
+            top: -450px;
+        }
+    }
+}
+/*Ширина экрана меньше 320 пикселей*/
+@media screen and (max-width: 320px){
+    @keyframes himera-logo {
+        0% {
+            top: -450px;
+        }
+
+        50% {
             top: 160px;
+        }
+
+        75% {
+            top: 100px;
+        }
+
+        85% {
+            top: 100px;
+        }
+
+        100% {
+            top: -450px;
+        }
+    }
+
+    @-webkit-keyframes himera-logo {
+        0% {
+            top: -450px;
+        }
+
+        50% {
+            top: 160px;
+        }
+
+        75% {
+            top: 100px;
+        }
+
+        85% {
+            top: 100px;
+        }
+
+        100% {
+            top: -450px;
+        }
+    }
+
+    @-o-keyframes himera-logo {
+        0% {
+            top: -450px;
+        }
+
+        50% {
+            top: 160px;
+        }
+
+        75% {
+            top: 100px;
+        }
+
+        85% {
+            top: 100px;
         }
 
         100% {
