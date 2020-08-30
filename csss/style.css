@@ -38,7 +38,6 @@
     position: relative;
     max-width: 0px;
     height: 2.5px;
-    padding: 0px;
     background-color: #000000;
     -webkit-animation: line-drow2 1s ease-in-out 2s 1 forwards;
     -o-animation: line-drow2 1s ease-in-out 2s 1 forwards;
@@ -48,7 +47,6 @@
     position: relative;
     max-width: 0px;
     height: 2.5px;
-    padding: 0;
     background-color: #000000;
     -o-animation: line-drow2 1s ease-in-out 2s 1 forwards;
     -webkit-animation: line-drow2 1s ease-in-out 2s 1 forwards;
@@ -145,13 +143,13 @@
 
 @-o-keyframes line-drow1 {
     0% {
-        top: 0px;
+        top: 260px;
         max-width: 0px;
         height: 2.5px;
     }
 
     50% {
-        top: 0px;
+        top: 260px;
         max-width: 1950px;
         height: 2.5px;
     }
@@ -187,16 +185,16 @@
         top: -450px;
     }
     25%{
-        top: 260px;
+        top: 200px;
     }
     50%{
-        top: 260px;
+        top: 200px;
     }
     75%{
-        top: 160px;
+        top: 100px;
     }
     85%{
-        top: 160px;
+        top: 100px;
     }
     100%{
         top: -450px;
